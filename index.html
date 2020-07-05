@@ -3,13 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mushfikunnabi Nijhum</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="container ">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img id ="logo"src="images/logo.PNG" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#education">Education</a>
+                <a class="nav-item nav-link" href="#skills">Skills</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div id="about" class="container bg">
+        
+        <div class="row align-items-center">
+            <div class="col-md-6">
+               
+                    <img class= "rounded float-left img-fluid" src="images/pp1.png" alt="">
+                
+            </div>
+            <div class="col-md-6">
+                    <h4>Hello, This is</h4>
+                    <h1>NiJHUM</h1>
+
+                    <p> Would be Knowledgeable Network Engineer skilled at installing, configuring and maintaining communication networks. Good at monitoring network performance and troubleshooting. Learning web development. Committed to performing high quality work.  </p>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg2" id="education">
+        <h3 class="d-flex justify-content-center"style="padding-top:10px">My Education</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/bracu.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bsc in Computer Science and Engineering at BRAC University</h5>
+                <p class="card-text">Joined BRAC University in 2017 and currently studying here.<br>Expected Graduation time:2021</p>
+                
+              </div>
+            </div>
+            <div id="gdc" class="card">
+              <img src="images/gdc.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Higher Secondary Certificate</h5>
+                <p class="card-text">I completed my HSC from Govt. Gurudoyal College, Kishoreganj in 2016.</p>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/kgbhs.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Secondary School Certificate</h5>
+                <p class="card-text">Completed my SSC from Kishoreganj Govt. Boys' High School in 2014.</p>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container bg3" id="skills">
+        <h3 class="d-flex justify-content-center"style="padding-top:10px">Skills I have</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/networking.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Networking</h5>
+                <ul>
+                    <li>Routing & Switching</li>
+                    <li>DHCP</li>
+                    <li>Firewall</li>
+                    <li>Protocols</li>
+                    <li>Infrastructure</li>
+                    <li>TroubleShooting</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/prgrm.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Programming</h5>
+                <ul>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>JavaScript(Beginner)</li>
+                    
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img id="web" src="images/web.png" class="card-img-top float-left img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>Node JS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container bg4" id="contact">
+        <h1 class="d-flex justify-content-center"style="padding-top:10px">Contact Me</h1>
+        <h4 style="text-align:center">I'd love to hear from you!</h4>
+        
+        <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required />
+                        <label>Name</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="text" required />
+                        <label>Email</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="text" required />
+                        <label>Phone Number</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea required></textarea>
+                        <label>Message</label>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="btn-lrg submit-btn">Send Message</div>
+                </div>
+        </div>
+        
+    </div>
     
-
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
